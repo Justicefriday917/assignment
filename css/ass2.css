@@ -1,0 +1,283 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 600px){
+    .eee{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+        justify-content: left;
+        width: 150px;
+        padding: 0%;
+
+    }
+    ul , li{
+        display: flex;
+        flex-direction: column;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+    .left1{
+        flex-direction: column;
+        justify-content:space-around ;
+        margin: 40px;
+    }
+    #left5{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .part3{
+        flex-direction: column;
+    }
+    .part5{
+        display: grid;
+        /* row-gap: 20px;
+        column-gap: 20px; */
+        grid-template-columns: auto;
+
+    }
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.eee{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    color: black;
+    justify-content:space-between;
+    align-items: center;
+}
+ul li{
+    display: flex;
+    width: 100px;
+
+
+}   
+ul{
+    display: flex;
+    width: 100%;
+
+
+}
+
+li a{
+    margin-left: 30%;
+    text-decoration: none;
+    color: black;
+    
+
+
+}
+.logo,.hotline{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-decoration-style: none;
+    border-left: 2px solid black;
+    padding-left: 5px;
+}
+.eee img{
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+
+}
+.left1{
+    display: flex;
+    justify-content:space-around ;
+    margin: 40px;
+    
+
+}
+.left11{
+    width:100%;
+    padding: 2%;
+}
+.left11 p{
+    padding-top: 10%;
+    font-size: 50px;
+    margin-bottom: 10%;
+}
+.left22{
+    width: 90%;
+    height: 90%;
+}
+.bookserv{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    height: 20px;
+    background-color: aqua;
+    font-family: 'Lucida Sans',Verdana, sans-serif;
+    
+}
+.leftimg{
+    padding-top: 30px;
+    float: left;
+    padding-right: 10px;
+}
+.left2{
+    padding-top: 40px;
+}
+.left22{
+    position: absolute;
+    width: 550px;
+
+}
+div .leftspan{
+    margin-left: -30px;
+    margin-top: 50px;
+    background-color: beige;
+    position: relative;
+    height: 5vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50vh;
+    border-radius: 50px;
+    font-size: 100%;
+    border: 10px solid rgb(235, 223, 223);
+}
+.left3{
+    
+    background-color: aqua;
+    color: white;
+    border-radius: 90%;
+    padding: 20%;
+    height: 5%;
+    font-size: larger;
+    padding: 10%;
+
+}
+#left4{
+    margin-left: 60%;
+}
+.flot{
+    float: left;
+    padding-right:1% ;
+}
+.h66{
+    width: 300px;
+}
+.part3{
+    padding: 30px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(209, 219, 228);
+
+}
+.part3 input{
+    height: 40px;
+    margin-top: 10px;
+    width: 100%;
+}
+.circle1{
+    padding: 4%;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 34px;
+    float: left;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.part4{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10%;
+}
+.part42{
+    width: 250px;
+    text-align: justify;
+    padding-bottom: 4%;
+}
+.part421{
+    padding-top: 4%;
+    width: 350px;
+    text-align: justify;
+    
+}
+.part421 h1{
+    font-size: 32px;
+}
+.cen{
+    text-align: center;
+}
+.part5{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+}
+.part5 img{
+    width: 100%;
+    height: 50vmin;
+    box-shadow: 2px 4px 10px  black;
+
+    
+}
+.part66{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.part66 img{
+    width: 100%;
+    height: 400px;
+}
+.pat6{
+    width: 40%;
+    background-color: rgb(28, 137, 145);
+    height: 400px;
+    color: white;
+
+
+}
+.part66 p{
+    font-size: 50px;
+    padding: 60px;
+
+}
+#partt{
+    margin: 35%;
+    background-color: black;
+}
+.part7{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    background-color: rgb(198, 214, 209);
+    margin-top: -5px;
+    padding-top: 4px;
+}
+.blue{
+    color: blue;
+}
+.bl{
+    font-weight: 600;
+    font-size: 30px;
+}

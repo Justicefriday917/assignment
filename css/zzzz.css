@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(112, 80, 80);
+    font-family: sans-serif;
+}
+.navlist{
+  margin-left: 10%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    text-align: center;
+    
+}
+.navlist{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+.navlist a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+}
+.navlist a:hover{
+  border-bottom:2px solid white;
+  padding-bottom: 5px;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    margin-top: -4px;
+    border: 0px;
+}
+button:hover{
+  background-color: brown;
+}
+
+
+
+.gridd{
+  width: 100vw;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* width: 50vw; */
+    row-gap: 3px;
+    column-gap: 3x;
+    margin-top: 3%;
+  }
+  .gridd:hover{
+    background-color: rgb(112, 80, 80);
+
+
+  }
+  .gridd img{
+    width: 50%;
+    opacity: 20%;
+    padding: 5%;
+    border-radius: 30%;
+    box-shadow:0px 1px 5px  black ;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    
+  }
+  
+  /* .opp{
+    position: relative;
+  } */
+  .gridd img:hover{
+    opacity: 100%;
+
+
+  }
+  .topgal p{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow:1px 0 10px  rgb(0, 0, 0);
+  }
+  .lol{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+   
+
+  }
+  .lol p{
+    padding: 10%;
+    color: white;
+    /* border-top: 2px solid white; */
+  }
+  .lfoot{
+    padding: 4%;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    color: rgb(192, 133, 133);
+    background-color: black;
+    justify-content: space-around;
+  }
+.imgg img{
+  height: 500px;
+  width: 400px;
+  border-radius: 100%;
+  margin: 30px;
+
+}
+.imgg{
+  margin-left: 35%;
+
+}
+.new,div{
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(216, 213, 194);
+}
+#bbb{
+  font-weight: bolder;
+  color: bisque;
+  font-size: large;
+}
+.new:hover{
+  color: blue;
+}
+.pp{
+  text-align: justify;
+  width: 90%;
+  color: rgb(236, 230, 219);
+  padding-left: 5%;
+  font-weight: 250;
+  padding-left: 17min;
+  padding-right:17vmin;
+}
+
+.image-list img{
+  position: relative;
+}
+
+.container-22{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 20vmin;
+  padding-left: 14vmin;
+  padding-right:14vmin;
+}
+
+.image-list img{
+  width: 100%;
+}
+
+.lfoot img{
+  width: 20px;
+  height: 20px;
+
+}
